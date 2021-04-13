@@ -3,10 +3,11 @@ Discord OAuth2 Example
 PythonのFlaskを利用したDiscordのOAuth2のサンプルプログラム
 
 ## Run
-Flaskをインストール
+Flaskとrequestsをインストール
 
 ```
 pip install flask
+pip install requests
 ```
 
 client_idとclient_secretを指定し、portを変更します
