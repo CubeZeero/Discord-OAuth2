@@ -18,3 +18,6 @@ callbackURIは http://localhost:(ここにポート番号)/callback/ を設定�
 テストとして取得されたトークンなどは、responce.txt としてまとめて出力されます
 
 認証完了時は認証が完了したことを示すhtmlを表示するようにしています
+
+### Qiita
+https://qiita.com/cubezeero/items/993158b050f2e4ca605f
