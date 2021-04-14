@@ -31,7 +31,8 @@ def callback():
 
     responce_txt = open('responce.txt', 'w')
     responce_txt.write('access_token: '+ access_token +'\ntoken_type: '+ token_type +'\nexpires_in: '+ str(expires_in) +'\nrefresh_token: '+ refresh_token +'\nscope: '+ scope)
-
+    responce_txt.close()
+    
     return render_template('complete_window.html', title='Complete')
 
 if __name__ == "__main__":
