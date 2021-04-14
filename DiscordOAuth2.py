@@ -15,7 +15,7 @@ login_url = 'https://discord.com/api/oauth2/authorize?response_type=code&client_
 webbrowser.open(login_url)
 
 @app.route('/callback/')
-def hello():
+def callback():
     authorization_code = request.args.get("code")
 
     request_postdata = {'client_id': client_id, 'client_secret': client_secret, 'grant_type': 'authorization_code', 'code': authorization_code, 'redirect_uri': callback_url}
